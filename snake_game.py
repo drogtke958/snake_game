@@ -100,7 +100,7 @@ def main_menu():
     screen = pygame.display.set_mode((screen_width, screen_height))
     pygame.display.set_caption("Main Menu")
     font = pygame.font.SysFont("Arial", 40)
-    button_color = (100, 100, 200)
+    button_color = (255, 105, 180)
     text_color = (255, 255, 255)
 
     play_button_rect = pygame.Rect(0, screen_height // 3, 200, 50)
